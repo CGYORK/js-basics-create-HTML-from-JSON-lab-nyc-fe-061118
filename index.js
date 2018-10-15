@@ -32,6 +32,7 @@ $(document).ready(function() {
 })
 
 function putCastMembersonPage() {
+  debugger;
    movies.Titanic.cast.forEach(function(castMember) {
     $(`#cast`).append(`<li>${castMember.actor}</li>`)
   })
